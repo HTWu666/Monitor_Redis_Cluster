@@ -1,4 +1,6 @@
 # Monitor_Redis_Cluster
+This guide details setting up a monitoring solution for Redis Cluster, using Prometheus for metrics collection and Grafana for visualization. It covers Redis installation and configuration for clustering, deploying Redis Exporter to gather metrics, and configuring Prometheus and Grafana to monitor and visualize the cluster's performance and health. This setup provides real-time insights for effective management and troubleshooting.
+
 ## Setup Redis
 ### Installation
 To install Redis on your system, use the following command. This will install the Redis server which is the first step to setting up your Redis Cluster.
