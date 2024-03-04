@@ -63,6 +63,8 @@ This command starts the Redis Exporter, making it available for Prometheus to sc
 Prometheus needs to be configured to scrape metrics from Redis Exporter. Below is an example configuration that defines multiple scrape jobs for different Redis Exporters:
 ```
 # file: prometheus.yml
+global:
+  scrape_interval: 15s # Set the global default scrape interval to 15 seconds
 
 scrape_configs:
   - job_name: 'redis_exporter_1'
